@@ -27,6 +27,8 @@ app.get("/registro", (req, res) =>{
 
 
 
+
+
 app.use(express.static(join(__dirname, 'public')))
 app.listen(3000)
 
